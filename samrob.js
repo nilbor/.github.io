@@ -5,7 +5,7 @@ var bör=[[Date.now(),0],[Date.now()+100,0]]
 function startConnect() { 
     updateScroll();
 
-    host = "wss.maqiatto.com";
+    host = "maqiatto.com";
     port = 8883; //hämtar värden från html dokumentet
 
     clientID = "clientID-" + parseInt(Math.random() * 100); //Skapar ett ID för vår client 
